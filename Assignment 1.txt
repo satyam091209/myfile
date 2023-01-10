@@ -1,0 +1,28 @@
+Ques 1)
+
+Ans) GitHub offers a feature called SSH keys which allows you to securely connect to your account without having to type in your username and password each time.
+ To use SSH on GitHub, you need to generate an SSH key and add it to your GitHub account. 
+Once this is done, you can use the SSH protocol to securely access your repositories and make changes to them.
+
+Command Line for generating ssh keys are:
+
+Create a .ssh directory in your home directory
+Go to the .ssh folder
+Run ssh-keygen to generate an SSH key-pair
+# ssh-keygen -t key_type
+
+
+Ques 2)
+
+Ans )
+
+Commands for initialising to pushing your repo to github are:
+
+1. Initialize a git repository in the directory with the command "git init"
+2. Add all files to the repository with the command "git add ."
+3. Commit the files to the repository with the command "git commit -m Initial commit"
+4. Create a new repository on Github 
+5. Copy the link of the new repository 
+6. Add the remote repository to the local repository with the command "git remote add origin <link of repository>" 
+7. Push the files to the remote repository with the command "git push -u origin master"
+
