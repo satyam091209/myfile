@@ -1,0 +1,60 @@
+Ques ) Difference between static and dynamic website
+
+Ans ) Static Website: 
+
+
+A static website is a type of website where content is written in HTML and no other coding language is used. 
+These types of websites are often used for informational purposes, such as a business website, and the content is not regularly updated.
+
+Static Web Pages are simple in terms of complexity.
+
+In static web pages, Information are change rarely.
+
+Static web pages require less work and cost in designing them.
+
+
+
+
+Dynamic Website: 
+
+
+A dynamic website is a type of website where content is created and stored in a database. 
+These types of websites are often used for interactive purposes, such as an e-commerce website, and the content is regularly updated. 
+Dynamic websites also use coding languages such as PHP, ASP, and JavaScript to create the content on the page.
+
+Dynamic web pages are complicated.
+
+In dynamic web page, Information are change frequently.
+
+Dynamic web pages require comparatively more work and cost in designing them.
+
+
+
+
+Ques) Steps you followed to connect github repo to your local repo
+
+Ans) 1. Clone the github repo
+
+git clone https://github.com/github/mygithub/mygithub.git
+
+2. Connect to the github repo
+
+git init
+
+git add .
+
+git commit -am 'added mygithub repo'
+
+git push
+
+3. Check that the github repo is connected to your local repo
+
+git status
+
+4. Add the mygithub repo to your local repo
+
+git add mygithub
+
+git commit -am 'added mygithub repo'
+
+git push
